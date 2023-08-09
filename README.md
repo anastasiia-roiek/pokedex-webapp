@@ -13,7 +13,7 @@ To run this application locally, follow these steps:
 
 ### Navigate to the project folder:
 
-```cd pokemon-go-pokedex```
+```cd pokedex-webapp```
 ### Install dependencies:
 
 ```npm install```

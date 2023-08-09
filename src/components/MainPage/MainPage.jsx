@@ -45,7 +45,9 @@ const MainPage = () => {
 
   const getPokemonsByTypes = async () => {
     if (selectedTypes.length === 0) {
-      const data = await getCharacters();
+      const response = await axios
+        .get(`https://pokeapi.co/api/v2/pokemon?offset=0&limit=${loadedPokemonsCount}`);
+      const { data } = response;
 
       setPokemons(data.results);
       setTotalPokemons(data.count);

@@ -9,7 +9,7 @@ You can access the live demo of this application at GitHub Pages.[Live Demo](htt
 To run this application locally, follow these steps:
 
 ### Clone the repository:
-```git clone https://github.com/your-github-username/pokemon-go-pokedex.git```
+```git clone https://github.com/anastasiia-roiek/pokedex-webapp.git```
 
 ### Navigate to the project folder:
 

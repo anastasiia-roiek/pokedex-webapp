@@ -1,0 +1,55 @@
+.poke-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 300px;
+  margin: 10px auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .abilities,
+  .base-stat {
+    text-align: center;
+    margin-bottom: 10px;
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th,
+      td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.poke-info.show {
+  opacity: 1; 
+}
